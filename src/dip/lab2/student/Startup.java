@@ -1,6 +1,7 @@
-package dip.lab2;
+package dip.lab2.student;
 
 // An useful import if you need it.
+import dip.lab2.*;
 import java.text.NumberFormat;
 // Another useful import if you need it.
 import javax.swing.JOptionPane;
@@ -16,10 +17,10 @@ import javax.swing.JOptionPane;
  *    high-level class. Did it work? Are the low-level instances
  *    interchangeable? The DIP requires this.
  * 
- * @author your name goes here
+ * @author Benjamin
  */
 public class Startup {
     public static void main(String[] args) {
-               
+        
     }
 }

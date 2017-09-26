@@ -25,7 +25,7 @@ public class HRService {
 //    public HRService(Employee e) {
 //        employee = e;
 //    }
-    
+//    
     /*
      * The default constructor initializes nothing. If we're going to use it
      * we'd better make sure that we have an employee object to delegate to.
@@ -56,7 +56,6 @@ public class HRService {
 //        
 //        employee = e;
 //    }
-    
     /*
      * This is dangerous because it assumes the employee object has already
      * been set. Of course, if we use the parameterized constructor above,
@@ -87,17 +86,3 @@ public class HRService {
         return e.getAnnualWages();
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
