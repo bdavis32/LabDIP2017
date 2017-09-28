@@ -4,11 +4,11 @@ package dip.lab3.student.solution1;
  *
  * @author Benjamin
  */
-public class Message {
+public class MessageService {
     private MessageInput input;
     private MessageOutput output;
     
-    public Message (MessageInput input, MessageOutput output){
+    public MessageService (MessageInput input, MessageOutput output){
         this.input = input;
         this.output = output;
     }
