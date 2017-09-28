@@ -7,6 +7,6 @@ package dip.lab3.student.solution1;
 public class ConsoleInput implements MessageInput{
     @Override
     public void writeln(String line){
-        
+        System.out.println("Message: \n" + line);
     }
 }
